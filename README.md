@@ -50,15 +50,15 @@ dt::print::zone(timeNow); // Prints time zone to the screen
 
 There are these variables in namespace dt::delay:
 ```cpp
-int hourDelayVar
-int minuteDelayVar
-int secondDelayVar
-int weekDayDelayVar
-int dayDelayVar
-int monthDayDelayVar
-int monthDelayVar
-int yearDayDelayVar
-int yearDelayVar
+int hourDelayVar;
+int minuteDelayVar;
+int secondDelayVar;
+int weekDayDelayVar;
+int dayDelayVar;
+int monthDayDelayVar;
+int monthDelayVar;
+int yearDayDelayVar;
+int yearDelayVar;
 ```
 
 You can do this:
