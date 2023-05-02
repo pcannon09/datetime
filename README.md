@@ -1,5 +1,5 @@
 # datetime
-## 1.0.0
+## 1.1.0
 ### By: Paul Cannon Palacios
 
 ---
@@ -46,4 +46,37 @@ dt::print::yearDay(timeNow); // Prints Day of year to the screen
 dt::print::year(timeNow); // Prints year to the screen
 
 dt::print::zone(timeNow); // Prints time zone to the screen
+```
+
+There are these variables in namespace dt::delay:
+```cpp
+int hourDelayVar
+int minuteDelayVar
+int secondDelayVar
+int weekDayDelayVar
+int dayDelayVar
+int monthDayDelayVar
+int monthDelayVar
+int yearDayDelayVar
+int yearDelayVar
+```
+
+You can do this:
+```cpp
+// You can directly do this
+dt::delays::var = value;
+
+// Or do this
+hourDelay(int delay);
+minDelay(int delay);
+minuteDelay(int delay);
+secDelay(int delay);
+secondDelay(int delay);
+weekDayDelay(int delay);
+dayDelay(int delay);
+monthDelay(int delay);
+monDelay(int delay);
+monthDayDelay(int delay);
+yearDayDelay(int delay);
+yearDelay(int delay);
 ```
