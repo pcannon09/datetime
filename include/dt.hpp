@@ -5,8 +5,45 @@
 #include <iostream>
 #include <time.h>
 
+#define SET_TIME                        struct tm
+
 namespace dt
 {
+    namespace delays
+    {
+        extern int hourDelayVar;
+        extern int minuteDelayVar;
+        extern int secondDelayVar;
+        extern int weekDayDelayVar;
+        extern int dayDelayVar;
+        extern int monthDayDelayVar;
+        extern int monthDelayVar;
+        extern int yearDayDelayVar;
+        extern int yearDelayVar;
+
+        void reset();
+    }
+ 
+    namespace set
+    {
+        /* You can set delay manualy doing:
+            * delays::variable = value;
+        */
+
+        void hourDelay(int delay);
+        void minDelay(int delay);
+        void minuteDelay(int delay);
+        void secDelay(int delay);
+        void secondDelay(int delay);
+        void weekDayDelay(int delay);
+        void dayDelay(int delay);
+        void monthDelay(int delay);
+        void monDelay(int delay);
+        void monthDayDelay(int delay);
+        void yearDayDelay(int delay);
+        void yearDelay(int delay);
+    }
+
     namespace get
     { 
         struct tm *currentTime();
