@@ -17,16 +17,16 @@ How to get time:
 ```cpp
 struct tm *timeNow = dt::get::currentTime(); // Gets / updates time
 
-int hourVariable = dt::echo::hour(timeNow); // Gets hour
-int minVariable = dt::echo::min(timeNow); // Gets min
-int minuteVariable = dt::echo::minute(timeNow); // Gets minute
-int secondVariable = dt::echo::second(timeNow); // Gets second
-int weekDayVariable = dt::echo::weekDay(timeNow); // Gets day of the week
-int dayVariable = dt::echo::day(timeNow); // Gets day
-int monthDayVariable = dt::echo::monthDay(timeNow); // Gets the day of the month
-int monthVariable = dt::echo::month(timeNow); // Gets month
-int yearDayVariable = dt::echo::yearDay(timeNow); // Gets Day of year
-int yearVariable = dt::echo::year(timeNow); // Gets year
+int hourVariable = dt::get::hour(timeNow); // Gets hour
+int minVariable = dt::get::min(timeNow); // Gets min
+int minuteVariable = dt::get::minute(timeNow); // Gets minute
+int secondVariable = dt::get::second(timeNow); // Gets second
+int weekDayVariable = dt::get::weekDay(timeNow); // Gets day of the week
+int dayVariable = dt::get::day(timeNow); // Gets day
+int monthDayVariable = dt::get::monthDay(timeNow); // Gets the day of the month
+int monthVariable = dt::get::month(timeNow); // Gets month
+int yearDayVariable = dt::get::yearDay(timeNow); // Gets Day of year
+int yearVariable = dt::get::year(timeNow); // Gets year
 
 const char *timeZone = dt::get::zone(timeNow); // Gets time zone
 ```
