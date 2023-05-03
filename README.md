@@ -1,4 +1,4 @@
-# datetime
+# Datetime
 ## 1.1.0
 ### By: Paul Cannon Palacios
 
